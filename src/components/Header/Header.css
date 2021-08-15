@@ -1,0 +1,133 @@
+/*React-headroom*/
+.headroom-wrapper {
+    max-height: 100px;
+  }
+  
+.header {
+    background-color: white;
+    max-width: 100%;
+    
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    outline: none;
+  }
+/* menu */
+.menu{
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.menu-icon{
+  font-size: 24px;
+
+}
+
+.mob-menu{
+  display: none;
+}
+
+.web-menu{
+  display: flex;
+}
+
+/* .header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+.header li {
+    float: right;
+}
+.header li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 100px;
+    text-decoration: none;
+  } */
+.header a{
+  color: black;
+}
+.header .logo {
+    display: block;
+    flex: none;
+    float: left;
+    padding: 15px 150px;
+    font-size: 1.5em;
+    text-decoration: none;
+    margin-top: 10px;
+    line-height: normal;
+    background: transparent;
+    color: black;
+  }
+  .header .logo-name {
+    font-family: 'WindSong', cursive;
+    font-weight: bold;
+    font-variant-ligatures: no-common-ligatures;
+    -webkit-font-variant-ligatures: no-common-ligatures;
+    padding: 0 10px;
+  }
+  
+  .webheader{
+    padding: 30px;
+  }
+
+  @media only screen and (max-width: 720px ){
+    .mob-menu{
+      display: flex;
+    }
+    .web-menu{
+      display: none;
+    }
+
+    .header .logo {
+      display: block;
+      flex: none;
+      float: left;
+      font-size: 24px;
+      padding: 15px 20px;
+      text-decoration: none;
+      margin-top: 5px;
+      line-height: normal;
+      position: relative;
+    }
+  }
+
+
+@media only screen and (max-width:1024) {
+  .header {
+    background-color: white;
+    max-width: 100%;
+    padding: 15px 15px;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    outline: none;
+  }
+}
+
+@media only screen and (max-width:512) {
+  .header {
+    background-color: white;
+    max-width: 100%;
+    padding: 15px 15px;
+    margin: 0px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    outline: none;
+  }
+}
