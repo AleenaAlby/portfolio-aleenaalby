@@ -6,7 +6,7 @@ function Banner() {
     return (
         <div className="text-div ">
             <div className="center-all">
-                <h1 className="title">Hello There, </h1>
+                <h1 className="title">Hello 👋 There,   </h1>
                 <h2 className="sub-title">Stranger</h2>
             </div>
 
@@ -30,7 +30,7 @@ function Banner() {
                
                 <p className="caption">A normal mortal with immortal dreams</p>
                 <p className="message">My inbox is always open if you want to communicate with me. Hit me up if you
-                    have some question, want a collaboration or just want to talk about aliens or anything.
+                    have some question, or just want to talk about aliens or anything.
                     I'll try to get back to you as soon as I can.</p>
 
                 <a href="https://github.com/AleenaAlby"><img className="social" alt='github' src="https://img.icons8.com/windows/32/000000/github-squared.png" width='30'/></a>
